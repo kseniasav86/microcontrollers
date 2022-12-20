@@ -25,7 +25,7 @@ void loop()
 
       for (int i = 0; i < 15; i++)
       {
-        leds[i] = CRGB::Green;
+        leds[i] = CRGB::Blue;
       }
 
       FastLED.show();
